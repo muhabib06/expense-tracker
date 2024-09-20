@@ -48,3 +48,25 @@ A simple command-line based Java application to manage personal finances. The Ex
 ### Adding an Expense:
 To add an expense, simply follow the prompts in the application:
 
+Enter description: Lunch Enter amount: 15
+
+
+### Listing Expenses:
+
+Choose an option: list ID: 1, Description: Lunch, Amount: $15, Date: 2024-09-12
+
+
+### Deleting an Expense:
+To delete an expense, enter the ID when prompted:
+
+Choose an option: delete Enter expense ID to delete: 1 Expense deleted successfully.
+
+
+### Viewing Total Expenses:
+
+Choose an option: total Total expenses: $15
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
