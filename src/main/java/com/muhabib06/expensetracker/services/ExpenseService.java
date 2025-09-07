@@ -21,6 +21,9 @@ public class ExpenseService {
     }
 
     public double getTotalExpenses() {
-        return expenses.stream().mapToDouble(Expense::getAmount).sum();
+        return expenses.stream()
+            .mapToDouble(Expense::getAmount)
+            .sum();
     }
 }
+
